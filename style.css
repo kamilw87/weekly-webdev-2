@@ -13,13 +13,24 @@ body {
 
 .container-bg1 {
 	padding: 0 50px;
+	/*
 	background-image: url("img/hero--medium.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 1380px;
-	background-color: #464646; /* Set a background color that will be displayed while the background image is loading */
+	background-color: #464646;
 	height: 1000px;
+	*/
+}
 
+.bg1 {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	z-index: -100;
+	
 }
 
 .nav-bar {
