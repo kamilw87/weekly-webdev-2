@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+	position: relative;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -26,9 +27,8 @@ body {
 .bg1 {
 	width: 100%;
 	position: absolute;
-	top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	top: 0;
+	left: 0;
 	z-index: -100;
 	
 }
