@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100vw;
+	padding: 0 50px;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+.container-bg1 {
+	background-image: url("img/hero--large.jpg");
+	height: 1000px;
+}
+
+.nav-bar {
+	width: 100vw;
+	height: 200px;
+	margin-top: 20px;
+}
+
+.nav-bar-logo {
+	float: left;
+	width: 50vw;
+	height: 40px;
+}
+
+.nav-bar-menu {
+	float: left;
+	width: 50vw;
+	height: 40px;
+}
+
+.logo {
+	display: block;
+	height: 40px;
+	
+}
+
+.list-menu li {
+	float: left;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.list-menu a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+
+
+
