@@ -4,33 +4,26 @@ body {
 }
 
 .container {
-	position: relative;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
 	font-family: Arial;
+	color: #262626;
 	box-sizing: border-box;
 }
 
-.container-bg1 {
+.home {
+	position: relative;
 	padding: 0 50px;
-	/*
-	background-image: url("img/hero--medium.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: 1380px;
-	background-color: #464646;
-	height: 1000px;
-	*/
 }
 
-.bg1 {
-	width: 100%;
+.home-bg {
 	position: absolute;
+	display: block;
+	width: 100%;
 	top: 0;
 	left: 0;
 	z-index: -100;
-	
 }
 
 .nav-bar {
@@ -54,12 +47,11 @@ body {
 .logo {
 	display: block;
 	height: 40px;
-	
 }
 
 .list-menu li {
 	float: left;
-	font-size: 16px;
+	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: bold;
 	list-style: none;
@@ -68,10 +60,49 @@ body {
 
 .list-menu a {
 	text-decoration: none;
-	color: #000;
+	color: #171717;
+}
+
+.home-content {
+	width: 300px;
+}
+
+.home-title {
+	font-size: 40px;
+	font-weight: 900;
+	margin: 0;
+}
+
+.home-text {
+	font-size: 15px;
+	line-height: 1.5rem;
+	font-weight: 400;
+	color: grey;
+	text-align: justify;
+}
+
+.home-bt {
+	background-color: #FE6033;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	padding: 12px;
+	margin-top: 8px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 300;
+	border: 1px solid #FF5421;
+	-webkit-box-shadow: 2px 2px 8px 0px rgba(92,86,92,1);
+	-moz-box-shadow: 2px 2px 8px 0px rgba(92,86,92,1);
+	box-shadow: 2px 2px 8px 0px rgba(92,86,92,1);
 }
 
 
+.about-img {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: -100;
+}
 
 
 
