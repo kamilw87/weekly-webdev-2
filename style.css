@@ -1,24 +1,19 @@
 body {
 	margin: 0;
 	padding: 0;
-}
-
-.container {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
 	font-family: Arial;
 	color: #262626;
-	box-sizing: border-box;
 }
 
 .home {
-	position: relative;
+	background: url('img/hero--large.jpg') no-repeat;
+	background-position: 100%;
+	min-height: 800px;
+	max-height: 1000px;
 	padding: 0 50px;
 }
 
 .home-bg {
-	position: absolute;
 	display: block;
 	width: 100%;
 	top: 0;
@@ -34,14 +29,22 @@ body {
 
 .nav-bar-logo {
 	float: left;
-	width: 50%;
+	width: 30%;
 	height: 40px;
 }
 
 .nav-bar-menu {
 	float: left;
-	width: 50%;
+	width: 70%;
+	min-width: 540px;
 	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.nav-bar-menu ul {
+	display: inline-block;
+	padding: 0;
 }
 
 .logo {
@@ -56,6 +59,10 @@ body {
 	font-weight: bold;
 	list-style: none;
 	margin-right: 20px;
+}
+
+.list-menu li:nth-child(6) {
+	margin-right: 0;
 }
 
 .list-menu a {
@@ -97,16 +104,24 @@ body {
 }
 
 .about {
-	position: relative;
+	background: #00B6B7;
+	max-height: 700px;
 }
 
 .about-img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -100;
+	float: left;
+	width: 50%;
+	display: inline-block;
 }
 
+.about-img img {
+	width: 100%;
+}
+
+.about-content {
+	float: left;
+	width: 50%;
+}
 
 
 
